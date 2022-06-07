@@ -10,3 +10,7 @@ table {
 td:hover{
     background-color: bisque;
 }
+
+.LettersBTN{
+    width: 100%;
+}

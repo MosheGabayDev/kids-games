@@ -3,9 +3,9 @@ td {
     font-size: 120px;
 }
 table {
-    text-align: center;
+    /* text-align: center;
     position: relative;
-    left: 25%;
+    left: 25%; */
 }
 td:hover{
     background-color: bisque;

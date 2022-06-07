@@ -1,0 +1,12 @@
+td {
+    border: groove;
+    font-size: 120px;
+}
+table {
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+td:hover{
+    background-color: bisque;
+}

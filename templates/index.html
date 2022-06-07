@@ -1,0 +1,55 @@
+
+{% extends "layout.html" %}
+{% block page_title %}Welcome{% endblock %}
+{% block body %}
+    {{ super() }}
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+      <audio id="audio" src="https://sounds-for-kids-game.s3.eu-west-1.amazonaws.com/alef.mp4"></audio>
+
+    <table dir="rtl">
+        <tr>
+            <td id="alef" onclick="play()">א</td>
+            <td>ב</td>
+            <td>ג</td>
+            <td>ד</td>
+            <td>ה</td>
+            <td>ו</td>
+        </tr>
+        <tr>
+            <td>ז</td>
+            <td>ח</td>
+            <td>ט</td>
+            <td>י</td>
+            <td>כ</td>
+            <td>ך</td>
+        </tr>
+        <tr>
+            <td>ל</td>
+            <td>מ</td>
+            <td>ם</td>
+            <td>נ</td>
+            <td>ן</td>
+            <td>ס</td>
+        </tr>
+        <tr>
+            <td>ע</td>
+            <td>פ</td>
+            <td>ף</td>
+            <td>צ</td>
+            <td>ץ</td>
+            <td>ק</td>
+        </tr>
+        <tr>
+            <td>ר</td>
+            <td>ש</td>
+            <td>ש</td>
+            <td>ת</td>
+            <td>ת</td>
+       </tr>
+    </table>
+{% endblock %}
